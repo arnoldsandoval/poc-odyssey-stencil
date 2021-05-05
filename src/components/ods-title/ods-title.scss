@@ -1,0 +1,30 @@
+@import "~@okta/odyssey/src/scss/base/reset";
+@import "~@okta/odyssey/src/scss/base/_typography-header";
+
+
+.ods-title {
+
+  &.is-ods-title-1 {
+    font-size: $size-title-1;
+  }
+
+  &.is-ods-title-2 {
+    font-size: $size-title-2;
+  }
+
+  &.is-ods-title-3 {
+    font-size: $size-title-3;
+  }
+
+  &.is-ods-title-4 {
+    font-size: $size-title-4;
+  }
+
+  &.is-ods-title-5 {
+    font-size: $size-title-5;
+  }
+
+  &.is-ods-title-6 {
+    font-size: $size-title-6;
+  }
+}
