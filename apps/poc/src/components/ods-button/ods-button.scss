@@ -1,0 +1,8 @@
+@import "~@local/odyssey/src/scss/base/reset";
+@import "~@local/odyssey/src/scss/base/typography-link";
+@import "~@local/odyssey/src/scss/components/_button";
+
+
+:host {
+  display: inline-block;
+}

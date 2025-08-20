@@ -1,0 +1,7 @@
+@import "~@local/odyssey/src/scss/base/reset";
+@import "~@local/odyssey/src/scss/components/_label";
+@import "~@local/odyssey/src/scss/components/_radio-button";
+
+:host {
+  display: block;
+}

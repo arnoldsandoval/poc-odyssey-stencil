@@ -1,0 +1,13 @@
+@import '~@local/odyssey/src/scss/abstracts/functions';
+@import '~@local/odyssey/src/scss/abstracts/colors';
+@import '~@local/odyssey/src/scss/abstracts/tokens';
+@import '~@local/odyssey/src/scss/abstracts/mixins';
+@import '~@local/odyssey/src/scss/base/reset';
+@import '~@local/odyssey/src/scss/base/typography';
+@import '~@local/odyssey/src/scss/components/_banner';
+
+.ods-banner {
+  &.is-ods-banner-hidden {
+    display: none;
+  }
+}

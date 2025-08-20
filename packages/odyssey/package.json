@@ -1,0 +1,27 @@
+{
+  "name": "@local/odyssey",
+  "version": "0.7.0",
+  "description": "Okta's design system",
+  "author": "Okta, Inc.",
+  "license": "Apache-2.0",
+  "files": [
+    "dist",
+    "src/scss"
+  ],
+  "main": "src/scss/odyssey.scss",
+  "style": "src/scss/odyssey.scss",
+  "scripts": {
+    "build": "sass src/scss/odyssey.scss dist/odyssey.css",
+    "lint": "stylelint src/",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-recommended": "^14.0.0",
+    "stylelint-config-sass-guidelines": "^12.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.0",
+    "stylelint-scss": "^6.0.0"
+  }
+}

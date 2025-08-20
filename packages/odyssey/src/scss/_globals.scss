@@ -1,0 +1,16 @@
+// Global variables and functions for Stencil injection
+// This file consolidates all the variables and functions needed globally
+
+// Import all the abstracts in the correct order
+@import "abstracts/functions";
+@import "abstracts/colors";
+@import "abstracts/tokens";
+@import "abstracts/mixins";
+
+// Re-export key variables as global for compatibility
+:root {
+  --border-color-display: #{$border-color-display};
+  --text-heading: #{$text-heading};
+  --text-body: #{$text-body};
+  --color-primary-base: #{$color-primary-base};
+}

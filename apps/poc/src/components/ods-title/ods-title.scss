@@ -1,0 +1,33 @@
+@import '~@local/odyssey/src/scss/base/reset';
+@import '~@local/odyssey/src/scss/base/_typography-header';
+
+.ods-title {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #212529;
+
+  &.is-ods-title-1 {
+    font-size: 2.5rem;
+  }
+
+  &.is-ods-title-2 {
+    font-size: 2rem;
+  }
+
+  &.is-ods-title-3 {
+    font-size: 1.75rem;
+  }
+
+  &.is-ods-title-4 {
+    font-size: 1.5rem;
+  }
+
+  &.is-ods-title-5 {
+    font-size: 1.25rem;
+  }
+
+  &.is-ods-title-6 {
+    font-size: 1rem;
+  }
+}
